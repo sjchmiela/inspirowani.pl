@@ -1,54 +1,50 @@
 .Computer {
-  &-container {
-    box-sizing: border-box;
-    width: 680px;
-    margin: 0px auto;
-    position: relative;
-    /* HAVE SCALED TO FIT THE WINDOW */
-    transform: scale(0.6);
-  }
+  font-size: 3em;
+  box-sizing: border-box;
+  width: 43em;
+  margin: 0em auto;
+  position: relative;
+  transform: scale(0.6);
 
-  &-laptop:before {
-    top: -10px;
-    margin: -3px 0 0 -3px;
-    width: 6px;
-    height: 6px;
-    border-radius: 6px;
-    background: #a5adbd;
-  }
+  // &-laptop:before {
+  //   top: -0.625em;
+  //   margin: -0.1875em 0 0 -0.1875em;
+  //   width: 0.375em;
+  //   height: 0.375em;
+  //   border-radius: 0.375em;
+  //   background: #a5adbd;
+  //   background: red;
+  // }
 
   &-content {
-    width: 420px;
-    height: 240px;
+    width: 26.25em;
+    height: 15em;
     left: 50%;
-    margin-left: -210px;
+    margin-left: -13.125em;
     overflow: hidden;
+    background: red;
   }
 
   &-content:before {
+    background: green;
     content: "";
     position: absolute;
-    right: -90px;
-    width: 200px;
-    height: 300px;
-    transform: rotate(45deg);
-    background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0) 100%);
+    right: -5.625em;
+    width: 12.5em;
+    height: 18.75em;
     z-index: 5;
   }
 
   &-laptop {
-    width: 235px;
-    height: 155px;
-    background: #fc9252;
-    border: 12px solid #e8ebf0;
-    border-radius: 10px 10px 0 0;
-    position: absolute;
-    top: 200px;
-    right: 30px;
+    width: 14.6875em;
+    height: 9.6875em;
+    border: 0.75em solid #e8ebf0;
+    border-radius: 0.625em 0.625em 0 0;
+    position: relative;
   }
 
   &-laptop:before {
-    top: -6px;
+    top: -0.375em;
   }
 
   &-laptop > div {
@@ -56,19 +52,19 @@
   }
 
   &-laptop > &-content {
-    width: 211px;
-    height: 131px;
+    width: 13.1875em;
+    height: 8.1875em;
     left: 0;
     margin-left: 0;
   }
 
   &-btm {
-    width: 296px;
-    height: 7px;
-    bottom: -19px;
+    width: 18.5em;
+    height: 0.4375em;
+    bottom: -1.1875em;
     left: 50%;
-    margin-left: -148px;
-    border-radius: 0 0 20px 20px;
+    margin-left: -9.25em;
+    border-radius: 0 0 1.25em 1.25em;
     background: #f4f5f7;
     z-index: 1;
   }
@@ -76,12 +72,12 @@
   &-btm:before {
     content: "";
     position: absolute;
-    width: 42px;
-    height: 3px;
+    width: 2.625em;
+    height: 0.1875em;
     left: 50%; 
     top: 0;
-    margin-left: -21px;
-    border-radius: 0 0 5px 5px;
+    margin-left: -1.3125em;
+    border-radius: 0 0 0.3125em 0.3125em;
     background: #d8dbe1;
   }
 }

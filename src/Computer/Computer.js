@@ -8,7 +8,7 @@ class Computer extends Component {
 
   render() {
     return (
-      <div className="Computer-container">
+      <div className="Computer">
         <div className="Computer-laptop">
           <div className="Computer-content">
             {this.props.children}

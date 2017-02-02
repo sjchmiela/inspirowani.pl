@@ -110,6 +110,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
+          /\.scss$/,
           /\.json$/,
           /\.svg$/
         ],
@@ -143,7 +144,7 @@ module.exports = {
       },
       // https://medium.com/@Connorelsea/using-sass-with-create-react-app-7125d6913760#.kad6okoc3
       {
-        test: /\.s(a|c)ss$/,
+        test: /\.scss$/,
         include: paths.appSrc,
         loaders: ["style", "css", "sass"]
       },
