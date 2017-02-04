@@ -1,0 +1,70 @@
+.CalasanzSection {
+  background: #0F1315;
+  color: #fff;
+  align-items: stretch;
+  justify-content: space-around;
+
+  &-choker {
+    align-self: center;
+    background: #fff;
+    color: #000;
+    padding: 1.618em 2em;
+    margin-bottom: 1.618em;
+  }
+
+  &-columnsLayout {
+    margin-bottom: 1.618em;
+  }
+
+  &-lead {
+    text-align: center;
+  }
+
+  h1, h3, h4 {
+    font-family: 'Alegreya Sans';
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.618em;
+  }
+
+  h4 {
+    margin-top: 1em;
+    font-size: 1.618em;
+  }
+
+  &-materialsColumn, &-imageColumn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &-materialsColumn {
+    max-width: 30em;
+
+    &-list {
+      width: 100%;
+      list-style: none;
+      padding-left: 0;
+      &-item {
+        &-link {
+          text-decoration: none;
+          line-height: 2em;
+          color: #009BA0;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  &-imageColumn {
+    &-image {
+      width: 360px;
+    }
+  }
+}

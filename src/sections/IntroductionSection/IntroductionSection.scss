@@ -1,14 +1,9 @@
 .Introduction {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 2em;
   font-family: 'Alegreya Sans';
-  height: 100vh;
-  background: #eee url('krakow-1665081.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('cracow.jpg');
 
   &-part {
     display: block;

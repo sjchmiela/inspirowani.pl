@@ -1,0 +1,68 @@
+.ProgrammeSection {
+  background: #ffcb05;
+  justify-content: center;
+  align-items: stretch;
+
+  &-board {
+    flex: 1;
+    margin: 3em;
+    padding: 1em;
+    display: flex;
+    border-radius: 0.5em;
+    flex-direction: column;
+    border: 1em solid #9B6734;
+    background: url('board.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0.5em #000, 0 0.2em 0.5em rgba(117, 76, 36, 0.5);
+  }
+
+  &-header {
+    align-self: center;
+    background: #fff;
+    padding: 0.618em 1em;
+    box-shadow: 0 0.2em 0.5em rgba(117, 76, 36, 0.5);
+    transform: rotate(-3deg);
+  }
+
+  &-column {
+    margin: 0 1em;
+    flex: 1;
+  }
+
+  &-card {
+    background: #fff;
+    display: flex;
+    align-self: flex-start;
+    padding: 0 1em;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 1em;
+    box-shadow: 0 0.2em 0.5em rgba(117, 76, 36, 0.5);
+
+    h3 {
+      margin-bottom: 0;
+      font-size: 1.618em;
+      margin-top: 0.618em;
+    }
+
+    &--lectures {
+      transform: rotate(-1deg);
+    }
+
+    &--workshops {
+      transform: rotate(2deg);
+    }
+
+    &--discussions {
+      transform: rotate(-2deg);
+    }
+
+    &--project {
+      transform: rotate(1deg);
+    }
+
+    &--disclaimer {
+      transform: rotate(-1deg);
+    }
+  }
+}

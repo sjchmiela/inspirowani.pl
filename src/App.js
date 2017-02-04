@@ -1,26 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import IntroductionSection from './sections/IntroductionSection/IntroductionSection';
 import AboutSection from './sections/AboutSection/AboutSection';
+import CalasanzSection from './sections/CalasanzSection/CalasanzSection';
+import ProgrammeSection from './sections/ProgrammeSection/ProgrammeSection';
+import OrganisationSection from './sections/OrganisationSection/OrganisationSection';
 import './App.scss';
 
-class App extends Component {
-
-  renderComputerSection() {
-    return (
-      <div style={{ height: '100vh', display: 'flex' }}>
-        
-      </div>
-    );
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <IntroductionSection />
-        <AboutSection />
-      </div>
-    );
-  }
-}
-
-export default App;
+export default () => (
+  <div className="App">
+    <IntroductionSection />
+    <AboutSection />
+    <CalasanzSection />
+    <ProgrammeSection />
+    <OrganisationSection />
+  </div>
+);

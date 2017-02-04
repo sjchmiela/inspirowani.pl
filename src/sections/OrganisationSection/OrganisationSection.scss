@@ -1,0 +1,64 @@
+.OrganisationSection {
+  background-color: #FBFCFE;
+  background-image: url(piggy_bank.jpg);
+  background-size: 40% auto;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-left: 4em;
+
+  h4 {
+    margin-bottom: 0.618em;
+  }
+
+  &-organisers {
+    margin-top: 1em;
+    display: flex;
+    padding: 0 -1em;
+    a {
+      text-align: center;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0 1em;
+      padding: 0 0.618em;
+      img {
+        height: 7em;
+      }
+    }
+  }
+
+  &-content {
+    padding: 3em;
+    max-width: 40em;
+    padding: 0 1.618em 1.618em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      font-family: 'Alegreya Sans';
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+
+    h4 {
+      font-size: 1.618em;
+      margin-bottom: 0;
+    }
+
+    p {
+      line-height: 1.618em;
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
+
+    .lead { font-weight: bold; }
+  }
+}
