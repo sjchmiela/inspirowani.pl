@@ -53,7 +53,9 @@ export default class MemorySection extends Component {
   onToggle = () => this.setState({ explanationVisible: false })
 
   renderCard = (color) => (text, key) => (
-    <Card onToggle={this.onToggle} color={color} key={key} cursor={key}>{text}</Card>
+    <div className="MemorySection-card">
+      <Card onToggle={this.onToggle} color={color} key={key} cursor={key}>{text}</Card>
+    </div>
   )
 
   render() {

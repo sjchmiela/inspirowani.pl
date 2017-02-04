@@ -65,4 +65,15 @@
       transform: rotate(-1deg);
     }
   }
+
+  @media screen and (max-width: 30em) {
+    &-board {
+      margin: 1em;
+      padding: 1em;
+    }
+
+    &-column {
+      margin: 0;
+    }
+  }
 }

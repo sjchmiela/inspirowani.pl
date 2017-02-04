@@ -5,6 +5,14 @@
   justify-content: space-around;
   perspective: 99em;
   padding-bottom: 1.618em;
+  max-width: 100%;
+  
+
+  &-card {
+    @media screen and (max-width: 40em) {
+      font-size: 0.8em;
+    }
+  }
 
   &-explanation {
     margin: 0 1em;
@@ -13,7 +21,7 @@
     font-style: italic;
     color: #fff;
     opacity: 0.5;
-    margin-bottom: -1.618em;
+    // margin-bottom: -1.618em;
     transition: 0.5s;
 
     &--hidden {
@@ -22,6 +30,7 @@
   }
 
   &-row {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

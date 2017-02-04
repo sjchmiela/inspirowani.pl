@@ -1,8 +1,10 @@
 .Section {
   position: relative;
   min-height: 100vh;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
+  @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+  }
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -11,7 +13,9 @@
     flex: 1;
 
     &--back {
-      transform: translateZ(-1px) scale(2);
+      @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+        transform: translateZ(-1px) scale(2);
+      }
       background-size: cover;
       background-position: center;
       pointer-events: none;

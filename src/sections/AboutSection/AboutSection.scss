@@ -24,4 +24,14 @@
 
     .lead { font-weight: bold; }
   }
+
+  @media screen and (max-width: 30em) {
+    height: initial;
+    &-computer {
+      margin-top: 1em;
+      max-width: none;
+      padding: 0;
+      margin-bottom: 1em;
+    }
+  }
 }

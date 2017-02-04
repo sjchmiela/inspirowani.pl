@@ -4,7 +4,12 @@
   background-size: 40% auto;
   background-position: right bottom;
   background-repeat: no-repeat;
-  padding-left: 4em;
+  padding: 0 4em;
+
+  @media screen and (max-width: 40em) {
+    padding: 0 1em;
+    background-size: 60% auto;
+  }
 
   h4 {
     margin-bottom: 0.618em;
@@ -13,12 +18,15 @@
   &-organisers {
     margin-top: 1em;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0 -1em;
+    margin-bottom: -0.618em;
     a {
       text-align: center;
       align-items: center;
       justify-content: space-around;
-      margin: 0 1em;
+      margin: 0 1em 0.618em;
       padding: 0 0.618em;
       img {
         height: 7em;
@@ -27,7 +35,6 @@
   }
 
   &-content {
-    padding: 3em;
     max-width: 40em;
     padding: 0 1.618em 1.618em;
     display: flex;

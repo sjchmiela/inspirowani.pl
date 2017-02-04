@@ -4,10 +4,20 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
+  flex-wrap: wrap;
 
   &-column {
     display: flex;
     flex: 1 0;
     justify-content: center;
+  }
+
+  @media screen and (max-width: 50em) {
+    display: block;
+    margin: 0 auto;
+    &-column {
+      display: block;
+      padding: 0 0.618em;
+    }
   }
 }

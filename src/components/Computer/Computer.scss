@@ -13,6 +13,9 @@
     overflow: -moz-scrollbars-vertical;
     overflow: scroll;
     flex-basis: 0;
+    @media screen and (max-width: 40em) {
+      border-radius: 1.2em;
+    }
   }
 
   &-bottom {
@@ -22,6 +25,10 @@
     height: 1.5em;
     border-radius: 0 0 1.5em 1.5em;
     background: #f4f5f7;
+
+    @media screen and (max-width: 40em) {
+      display: none;
+    }
 
     &-handle {
       width: 3em;
