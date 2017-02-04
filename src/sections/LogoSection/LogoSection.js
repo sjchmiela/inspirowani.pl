@@ -7,7 +7,9 @@ import logo from './logo.svg';
 
 const LogoSection = ({ zIndex }) => (
   <Section className="LogoSection" zIndex={zIndex}>
-    <img className="LogoSection-logo" src={logo} alt="Inspirowani Kalasancjuszem! Kongres Duchowości Młodych" />
+    <div className="LogoSection-backgroundLightener">
+      <img className="LogoSection-logo" src={logo} alt="Inspirowani Kalasancjuszem! Kongres Duchowości Młodych" />
+    </div>
   </Section>
 );
 
