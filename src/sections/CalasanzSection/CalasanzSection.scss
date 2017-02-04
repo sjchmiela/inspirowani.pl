@@ -53,7 +53,11 @@
         &-link {
           text-decoration: none;
           line-height: 2em;
-          color: #009BA0;
+          color: #ffcb05;
+          &-domain {
+            font-style: italic;
+            opacity: 0.5;
+          }
           &:hover {
             text-decoration: underline;
           }
