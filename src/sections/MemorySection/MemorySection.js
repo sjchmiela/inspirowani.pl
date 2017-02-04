@@ -1,28 +1,79 @@
-import React, { PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
+import classnames from 'classnames';
 import Section from '../../components/Section/Section';
 import Card from '../../components/Card/Card';
 import './MemorySection.scss';
 
-const MemorySection = ({ zIndex }) => (
-  <Section className="MemorySection" zIndex={zIndex}>
-    <div className="MemorySection-row">
-      <Card>Młodzi ludzie</Card>
-      <Card>Ciekawe konferencje i warsztaty</Card>
-      <Card>Wspólna modlitwa</Card>
-      <Card>Integracja</Card>
-      <Card>Zabawa</Card>
-    </div>
-    <div className="MemorySection-row">
-      <Card color="blue">żeby bardziej żyć</Card>
-      <Card color="blue">wiarą w Jezusa Chrystusa</Card>
-      <Card color="blue">tak jak</Card>
-      <Card color="blue">św. Józef Kalasancjusz</Card>
-    </div>
-  </Section>
-);
+const whats = [
+  'Młodzi ludzie',
+  'Ciekawe konferencje i warsztaty',
+  'Wspólna modlitwa',
+  'Integracja',
+  'Zabawa',
+];
 
-MemorySection.propTypes = {
-  zIndex: PropTypes.number,
-};
+const whatFors = [
+  'żeby bardziej żyć',
+  'wiarą w Jezusa Chrystusa',
+  'tak jak',
+  'św. Józef Kalasancjusz',
+];
 
-export default MemorySection;
+export default class MemorySection extends Component {
+  static propTypes = {
+    zIndex: PropTypes.number,
+  }
+
+  constructor(props) {
+    super(props);
+
+    let anyCardVisible = false;
+
+    if (localStorage && !anyCardVisible) {
+      for(let i = 0; i < whats.length; i++) {
+        if (localStorage.getItem(`red-${i}`) === 'back') {
+          anyCardVisible = true;
+          break;
+        }
+      }
+    }
+
+    if (localStorage && !anyCardVisible) {
+      for(let i = 0; i < whatFors.length; i++) {
+        if (localStorage.getItem(`blue-${i}`) === 'back') {
+          anyCardVisible = true;
+          break;
+        }
+      }
+    }
+
+    this.state = { explanationVisible: !anyCardVisible };
+  }
+
+  onToggle = () => this.setState({ explanationVisible: false })
+
+  renderCard = (color) => (text, key) => (
+    <Card onToggle={this.onToggle} color={color} key={key} cursor={key}>{text}</Card>
+  )
+
+  render() {
+    const explanationClassName = classnames({
+      'MemorySection-explanation': true,
+      'MemorySection-explanation--hidden': !this.state.explanationVisible,
+    });
+
+    return (
+      <Section className="MemorySection" zIndex={this.props.zIndex}>
+        <div className="MemorySection-row">
+          {whats.map(this.renderCard('red'))}
+        </div>
+        <div className={explanationClassName}>
+          Kliknij, aby odkryć…
+        </div>
+        <div className="MemorySection-row">
+          {whatFors.map(this.renderCard('blue'))}
+        </div>
+      </Section>
+    );
+  }
+}

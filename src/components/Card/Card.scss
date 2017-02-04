@@ -1,48 +1,62 @@
 .Card {
+  margin: 1.618em;
   width: 9.708em;
   height: 14.07em;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 0.389em;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  
-
-  &--red {
-    background: url('./card_back_red.svg');
-  }
-
-  &--blue {
-    background: url('./card_back_blue.svg');
-  }
-
-  &--front &-back {
-    display: none;
-  }
-
-  &-back {
-    margin: 0.32em;
-    padding: 0.32em;
-    border: 1.5px solid;
-    border-radius: 0.17em;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-  }
+  position: relative;
+  transition: 0.6s;
+	transform-style: preserve-3d;
 
   &--blue &-back {
     border-color: #313390;
+    color: #313390;
   }
 
   &--red &-back {
     border-color: #fb0f0c;
+    color: #fb0f0c;
   }
 
   &--back {
+    transform: rotateY(180deg);
+  }
+
+  &-front {
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+
+  &-front, &-back {
+    border-radius: 0.389em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-back {
+    pointer-events: none;
     background: #fff;
+    transform: rotateY(180deg);
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      margin: 0.32em;
+      padding: 0.32em;
+      border: 1.5px solid;
+      border-radius: 0.17em;
+    }
   }
 }

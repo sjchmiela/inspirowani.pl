@@ -25,11 +25,10 @@ export default class Section extends Component {
   render() {
     return (
       <div className="Section" style={{ zIndex: this.getZIndex() }}>
-      {this.renderBackLayer()}
+        {this.renderBackLayer()}
         <div className={classnames('Section-layer', 'Section-layer--base', this.props.className)}>
           {this.props.children}
         </div>
-        
       </div>
     )
   }

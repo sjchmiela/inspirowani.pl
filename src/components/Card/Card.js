@@ -2,11 +2,16 @@ import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
 import './Card.scss';
 
+import blueCard from './card_back_blue.svg';
+import redCard from './card_back_red.svg';
+
 export default class Card extends Component {
   static propTypes = {
     color: PropTypes.oneOf(['red', 'blue']),
     className: PropTypes.string,
     children: PropTypes.node,
+    onToggle: PropTypes.func,
+    cursor: PropTypes.number,
   }
 
   static defaultProps = {
@@ -17,12 +22,15 @@ export default class Card extends Component {
     super(props);
 
     this.state = {
-      side: 'front',
+      side: (localStorage && localStorage.getItem(`${props.color}-${props.cursor}`)) || 'front',
     };
   }
 
   flip = () => this.setState({
     side: this.state.side === 'back' ? 'front' : 'back',
+  }, () => {
+    this.props.onToggle && this.props.onToggle();
+    localStorage && localStorage.setItem(`${this.props.color}-${this.props.cursor}`, this.state.side);
   })
 
   render() {
@@ -35,8 +43,13 @@ export default class Card extends Component {
 
     return (
       <div className={className} onClick={this.flip}>
+        <div className="Card-front">
+          <img src={(this.props.color === 'red' && redCard) || blueCard} alt="Rewers karty" />
+        </div>
         <div className="Card-back">
-          {this.props.children}
+          <div className="Card-back-wrapper">
+            {this.props.children}
+          </div>
         </div>
       </div>
     );

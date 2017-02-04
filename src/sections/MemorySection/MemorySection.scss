@@ -1,12 +1,30 @@
 .MemorySection {
-  background: green;
+  background: #0F7F12;
   display: flex;
   flex: 1;
   justify-content: space-around;
+  perspective: 99em;
+  padding-bottom: 1.618em;
+
+  &-explanation {
+    margin: 0 1em;
+    align-self: stretch;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: -1.618em;
+    transition: 0.5s;
+
+    &--hidden {
+      opacity: 0;
+    }
+  }
 
   &-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: -1.618em;
   }
 }
