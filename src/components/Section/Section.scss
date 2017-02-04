@@ -1,0 +1,15 @@
+.Section {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (min-width: 40em) {
+  @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+    /* ... parallax styles ... */
+  }
+}

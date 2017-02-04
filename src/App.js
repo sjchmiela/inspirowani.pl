@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
-import Introduction from './Introduction/Introduction';
-import './App.css';
+import IntroductionSection from './sections/IntroductionSection/IntroductionSection';
+import AboutSection from './sections/AboutSection/AboutSection';
+import './App.scss';
 
 class App extends Component {
+
+  renderComputerSection() {
+    return (
+      <div style={{ height: '100vh', display: 'flex' }}>
+        
+      </div>
+    );
+  }
+
   render() {
     return (
       <div className="App">
-        <Introduction />
+        <IntroductionSection />
+        <AboutSection />
       </div>
     );
   }

@@ -1,0 +1,41 @@
+.Computer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  &-wrapper {
+    display: flex;
+    height: 100vh;
+    padding: 0 1.5em 0;
+  }
+
+  &-content {
+    flex: 1;
+    overflow: scroll;
+  }
+
+  &-screen {
+    border-radius: 1.2em 1.2em 0 0;
+    border: 1.5em solid #e8ebf0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: #fff;
+  }
+
+  &-bottom {
+    margin: 0 -1.5em 0;
+    display: flex;
+    justify-content: center;
+    height: 1.5em;
+    border-radius: 0 0 1.5em 1.5em;
+    background: #f4f5f7;
+
+    &-handle {
+      width: 3em;
+      height: 0.3em;
+      border-radius: 0 0 0.3125em 0.3125em;
+      background: #d8dbe1;
+    }
+  }
+}

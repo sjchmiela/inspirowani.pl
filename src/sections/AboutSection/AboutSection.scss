@@ -1,0 +1,25 @@
+.AboutSection {
+  background-image: url(reading_bible.jpg);
+  &-computer {
+    padding: 3em;
+    max-width: 40em;
+  }
+
+  &-content {
+    padding: 0 1.618em;
+
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      font-family: 'Alegreya Sans';
+      font-size: 2em;
+    }
+
+    p {
+      line-height: 1.618em;
+    }
+
+    .lead { font-weight: bold; }
+  }
+}

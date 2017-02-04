@@ -1,0 +1,26 @@
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2em;
+  font-family: 'Alegreya Sans';
+  height: 100vh;
+  background: #eee url('krakow-1665081.jpg');
+  background-size: cover;
+  background-position: center;
+
+  &-part {
+    display: block;
+    background: rgba(255,203,5, 1);
+    margin: 0;
+    padding: 0.389em 0.618em;
+
+    &--left {
+      align-self: flex-start;
+    }
+    &--right {
+      align-self: flex-end;
+    }
+  }
+}
