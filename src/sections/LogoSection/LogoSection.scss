@@ -1,0 +1,12 @@
+.LogoSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #eee url(shards_pattern.svg);
+
+  &-logo {
+    max-width: 800px;
+    max-height: 100%;
+  }
+}

@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import Section from '../../components/Section/Section';
 import ColumnsLayout from '../../components/ColumnsLayout/ColumnsLayout';
 import './ProgrammeSection.scss';
 
 export default class Introduction extends Component {
+  static propTypes = {
+    zIndex: PropTypes.number,
+  }
+
   getColumns() {
     return [
       this.renderLectures(),
@@ -66,7 +70,7 @@ export default class Introduction extends Component {
 
   render() {
     return (
-      <Section className="ProgrammeSection">
+      <Section className="ProgrammeSection" zIndex={this.props.zIndex}>
         <div className="ProgrammeSection-board">
           <h1 className="ProgrammeSection-header">Program</h1>
           <ColumnsLayout columns={this.getColumns()} />

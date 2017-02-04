@@ -1,0 +1,12 @@
+.MemorySection {
+  background: green;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

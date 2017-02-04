@@ -1,0 +1,48 @@
+.Card {
+  width: 9.708em;
+  height: 14.07em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.389em;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+
+  &--red {
+    background: url('./card_back_red.svg');
+  }
+
+  &--blue {
+    background: url('./card_back_blue.svg');
+  }
+
+  &--front &-back {
+    display: none;
+  }
+
+  &-back {
+    margin: 0.32em;
+    padding: 0.32em;
+    border: 1.5px solid;
+    border-radius: 0.17em;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &--blue &-back {
+    border-color: #313390;
+  }
+
+  &--red &-back {
+    border-color: #fb0f0c;
+  }
+
+  &--back {
+    background: #fff;
+  }
+}
