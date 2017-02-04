@@ -36,7 +36,7 @@ const OrganisationSection = ({ zIndex }) => (
       <h4>Ile kosztuje uczestnictwo?</h4>
       <ul>
         <li><strong>Pakiet A1</strong> – obejmuje udział w całym programie Kongresu oraz obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 50 zł,</li>
-        <li><strong>Pakiet A2</strong> - obejmuje udział w całym programie Kongresu, zakwaterowanie w <a href="http://pl.ssm.com.pl/krakow-grochowa/">schronisku młodzieżowym</a> oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł.</li>
+        <li><strong>Pakiet A2</strong> – obejmuje udział w całym programie Kongresu, zakwaterowanie w <a href="http://pl.ssm.com.pl/krakow-grochowa/">schronisku młodzieżowym</a> oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł.</li>
       </ul>
     </div>
   </Section>
