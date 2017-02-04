@@ -10,16 +10,12 @@ class Computer extends Component {
   render() {
     const computerClassName = classnames(['Computer', this.props.className]);
     return (
-      <div className="Computer-wrapper">
-        <div className={computerClassName}>
-          <div className="Computer-screen">
-            <div className="Computer-content">
-              {this.props.children}
-            </div>
-          </div>
-          <div className="Computer-bottom">
-            <div className="Computer-bottom-handle" />
-          </div>
+      <div className={computerClassName}>
+        <div className="Computer-screen">
+          {this.props.children}
+        </div>
+        <div className="Computer-bottom">
+          <div className="Computer-bottom-handle" />
         </div>
       </div>
     );
