@@ -42,13 +42,15 @@ export default class Card extends Component {
     ]);
 
     return (
-      <div className={className} onClick={this.flip}>
-        <div className="Card-front">
-          <img src={(this.props.color === 'red' && redCard) || blueCard} alt="Rewers karty" />
-        </div>
-        <div className="Card-back">
-          <div className="Card-back-wrapper">
-            {this.props.children}
+      <div className="Card-container">
+        <div className={className} onClick={this.flip}>
+          <div className="Card-front">
+            <img src={(this.props.color === 'red' && redCard) || blueCard} alt="Rewers karty" />
+          </div>
+          <div className="Card-back">
+            <div className="Card-back-wrapper">
+              {this.props.children}
+            </div>
           </div>
         </div>
       </div>

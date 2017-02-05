@@ -3,7 +3,7 @@ import Section from '../../components/Section/Section';
 
 import './LogoSection.scss';
 
-import logo from './logo.svg';
+import logo from './logo.svg?inlineSvg';
 
 const LogoSection = ({ zIndex }) => (
   <Section className="LogoSection" zIndex={zIndex}>

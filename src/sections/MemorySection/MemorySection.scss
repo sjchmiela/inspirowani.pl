@@ -1,12 +1,10 @@
 .MemorySection {
-  background: #0F7F12;
-  display: flex;
   flex: 1;
-  justify-content: space-around;
-  perspective: 99em;
-  padding-bottom: 1.618em 1.618em 0;
-  margin-bottom: -1em;
+  display: flex;
   max-width: 100%;
+  background: #0F7F12;
+  justify-content: space-around;
+  padding-bottom: 1.618em 1.618em 0;
 
   &-card {
     @media screen and (max-width: 40em) {

@@ -9,21 +9,21 @@ import OrganisationSection from './sections/OrganisationSection/OrganisationSect
 import './App.scss';
 
 const sections = [
-  LogoSection,
-  IntroductionSection,
-  MemorySection,
-  AboutSection,
-  CalasanzSection,
-  ProgrammeSection,
-  OrganisationSection,
+  { component: LogoSection, zIndex: 16 },
+  { component: IntroductionSection, zIndex: 4 },
+  { component: MemorySection, zIndex: 12 },
+  { component: AboutSection, zIndex: 5 },
+  { component: CalasanzSection, zIndex: 8 },
+  { component: ProgrammeSection, zIndex: 6 },
+  { component: OrganisationSection, zIndex: 4 },
 ];
 
 export default () => (
   <div
     className="App"
-    children={sections.map((section, index) => React.createElement(section, {
+    children={sections.map(({ component, zIndex }, index) => React.createElement(component, {
       key: index,
-      zIndex: (sections.length + 1) - index,
+      zIndex,
     }))}
   />
 );

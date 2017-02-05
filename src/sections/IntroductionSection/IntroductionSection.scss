@@ -5,6 +5,13 @@
   font-family: 'Alegreya Sans';
   line-height: 1.618em;
 
+  &-backLayer {
+    background-color: #1992E8;
+    @media screen and (min-width: 49em) {
+      background-image: url(cracow.jpg);
+    }
+  }
+
   &-part {
     display: block;
     background: rgba(255,203,5, 1);

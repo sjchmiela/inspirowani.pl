@@ -1,21 +1,19 @@
 .Section {
   position: relative;
   min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+
   @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
   }
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
 
   &-layer {
     flex: 1;
 
     &--back {
-      @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
-        transform: translateZ(-1px) scale(2);
-      }
       background-size: cover;
       background-position: center;
       pointer-events: none;
@@ -24,6 +22,9 @@
       left: 0;
       bottom: 0;
       right: 0;
+      @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+        transform: translateZ(-1px) scale(2);
+      }
     }
 
     &--base {

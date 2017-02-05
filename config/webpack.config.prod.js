@@ -120,7 +120,7 @@ module.exports = {
           /\.css$/,
           /\.scss$/,
           /\.json$/,
-          /\.svg$/
+          /\.svg(\?.+)?$/
         ],
         loader: 'url',
         query: {
@@ -170,6 +170,14 @@ module.exports = {
         query: {
           name: 'static/media/[name].[hash:8].[ext]'
         }
+      },
+      {
+        test: /\?inline$/,
+        loader: 'url'
+      },
+      {
+        test: /\?inlineSvg$/,
+        loader: 'svg-url?noquotes'
       }
     ]
   },

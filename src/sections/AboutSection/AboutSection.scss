@@ -2,6 +2,13 @@
   height: 100vh;
   padding: 0 1.5em 0;
 
+  &-backLayer {
+    background-color: #86AE51;
+    @media screen and (min-width: 49em) {
+      background-image: url(reading_bible.jpg);
+    }
+  }
+
   &-computer {
     padding: 3em;
     max-width: 40em;
@@ -25,7 +32,7 @@
     .lead { font-weight: bold; }
   }
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 40em) {
     height: initial;
     &-computer {
       margin-top: 1em;

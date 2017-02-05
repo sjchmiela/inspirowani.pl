@@ -4,10 +4,8 @@ import Section from '../../components/Section/Section';
 
 import './AboutSection.scss';
 
-import readingBible from './reading_bible.jpg';
-
 const AboutSection = ({ zIndex }) => (
-  <Section className="AboutSection" backgroundImage={readingBible} zIndex={zIndex}>
+  <Section className="AboutSection" backLayerClassName="AboutSection-backLayer" zIndex={zIndex}>
     <Computer className="AboutSection-computer">
       <div className="AboutSection-content">
         <h3>O Kongresie</h3>

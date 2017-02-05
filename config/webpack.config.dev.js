@@ -114,7 +114,7 @@ module.exports = {
           /\.css$/,
           /\.scss$/,
           /\.json$/,
-          /\.svg$/
+          /\.svg(\?.+)?$/
         ],
         loader: 'url',
         query: {
@@ -148,7 +148,7 @@ module.exports = {
       {
         test: /\.scss$/,
         include: paths.appSrc,
-        loaders: ["style", "css", "sass"]
+        loaders: ["style", "css", "sass", "postcss"]
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
@@ -163,6 +163,14 @@ module.exports = {
         query: {
           name: 'static/media/[name].[hash:8].[ext]'
         }
+      },
+      {
+        test: /\?inline$/,
+        loader: 'url'
+      },
+      {
+        test: /\?inlineSvg$/,
+        loader: 'svg-url?noquotes'
       }
     ]
   },
