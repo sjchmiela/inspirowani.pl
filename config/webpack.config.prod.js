@@ -35,6 +35,7 @@ var publicPath = ensureSlash(homepagePathname, true);
 // as %PUBLIC_URL% in `index.html` and `process.env.PUBLIC_URL` in JavaScript.
 // Omit trailing slash as %PUBLIC_PATH%/xyz looks better than %PUBLIC_PATH%xyz.
 var publicUrl = ensureSlash(homepagePathname, false);
+var absolutePublicUrl = ensureSlash(homepagePath, false);
 // Get environment variables to inject into our app.
 var env = getClientEnvironment(publicUrl);
 
@@ -201,7 +202,8 @@ module.exports = {
     // In production, it will be an empty string unless you specify "homepage"
     // in `package.json`, in which case it will be the pathname of that URL.
     new InterpolateHtmlPlugin({
-      PUBLIC_URL: publicUrl
+      PUBLIC_URL: publicUrl,
+      ABSOLUTE_PUBLIC_URL: absolutePublicUrl
     }),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
