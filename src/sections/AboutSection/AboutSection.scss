@@ -3,7 +3,7 @@
   padding: 0 1.5em 0;
 
   &-backLayer {
-    background-color: #86AE51;
+    background-color: #009ba0;
     @media screen and (min-width: 49em) {
       background-image: url(reading_bible.jpg);
     }
@@ -16,6 +16,11 @@
 
   &-content {
     padding: 0 1.618em;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 
     h3 {
       text-transform: uppercase;

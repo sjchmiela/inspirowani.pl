@@ -17,6 +17,7 @@
   }
 
   &-header {
+    margin: 0.389em 0.618em 0;
     align-self: center;
     background: #fff;
     padding: 0.618em 1em;
@@ -33,7 +34,7 @@
     background: #fff;
     display: flex;
     align-self: flex-start;
-    padding: 0 1em;
+    padding: 0 0.618em;
     flex-direction: column;
     flex: 1;
     margin-top: 1em;
@@ -62,7 +63,13 @@
     }
 
     &--disclaimer {
-      transform: rotate(-1deg);
+      background: #009ba0;
+      color: #fff;
+      font-weight: bold;
+      display: block;
+      flex: none;
+      align-self: center;
+      transform: rotate(1deg);
     }
   }
 

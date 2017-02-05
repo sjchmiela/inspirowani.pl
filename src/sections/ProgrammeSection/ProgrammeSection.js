@@ -46,7 +46,6 @@ export default class Introduction extends Component {
     <div className="ProgrammeSection-column">
       {this.renderDiscussions()}
       {this.renderProject()}
-      {this.renderDisclaimer()}
     </div>
   )
 
@@ -73,6 +72,7 @@ export default class Introduction extends Component {
       <Section className="ProgrammeSection" zIndex={this.props.zIndex}>
         <div className="ProgrammeSection-board">
           <h1 className="ProgrammeSection-header">Program</h1>
+          {this.renderDisclaimer()}
           <ColumnsLayout columns={this.getColumns()} />
         </div>
       </Section>

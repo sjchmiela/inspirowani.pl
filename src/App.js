@@ -5,6 +5,7 @@ import MemorySection from './sections/MemorySection/MemorySection';
 import AboutSection from './sections/AboutSection/AboutSection';
 import CalasanzSection from './sections/CalasanzSection/CalasanzSection';
 import ProgrammeSection from './sections/ProgrammeSection/ProgrammeSection';
+import ContactSection from './sections/ContactSection/ContactSection';
 import OrganisationSection from './sections/OrganisationSection/OrganisationSection';
 import './App.scss';
 
@@ -15,6 +16,7 @@ const sections = [
   { component: AboutSection, zIndex: 5 },
   { component: CalasanzSection, zIndex: 8 },
   { component: ProgrammeSection, zIndex: 6 },
+  { component: ContactSection, zIndex: 3 },
   { component: OrganisationSection, zIndex: 4 },
 ];
 

@@ -1,0 +1,64 @@
+.ContactSection {
+  &-backLayer {
+    background-color: #fff;
+    @media screen and (min-width: 49em) {
+      background-image: url(letters.jpg);
+    }
+  }
+
+  padding: 1em;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-part {
+    h1 {
+      margin: 0;
+      margin-bottom: 0.389em;
+    }
+    width: 14em;
+    height: 14em;
+    padding: 1em;
+    background: #fff;
+    border-radius: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.618em;
+
+    @media screen and (min-width: 49em) {
+      width: 19em;
+      height: 19em;
+      padding: 1em;
+      background: #fff;
+      border-radius: 20em;
+    }
+
+    a {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1em;
+    }
+
+    img {
+      margin-right: 0.618em;
+    }
+  }
+
+  &-contact {
+    background: #ffcb05;
+  }
+
+  &-registration {
+    background: #009ba0;
+    color: #fff;
+    h1, p { margin: 0; }
+    p { margin-top: 0.618em; font-style: italic }
+  }
+
+  &-facebook {
+    color: #3C5A96;
+  }
+}
