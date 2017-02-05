@@ -12,10 +12,11 @@
     justify-content: center;
   }
 
-  @media screen and (max-width: 50em) {
+  @media screen and (max-width: 60em) {
     display: block;
     margin: 0 auto;
     &-column {
+      text-align: center;
       display: block;
       padding: 0 0.618em;
     }
