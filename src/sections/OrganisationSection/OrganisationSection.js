@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import Section from '../../components/Section/Section';
 
 import piarists from './piarists.png';
@@ -7,7 +7,7 @@ import liceum from './liceum.png';
 
 import './OrganisationSection.scss';
 
-const OrganisationSection = ({ zIndex }) => (
+export default ({ zIndex }) => (
   <Section className="OrganisationSection" zIndex={zIndex}>
     <div className="OrganisationSection-content">
       <h4>Organizatorzy</h4>
@@ -44,15 +44,9 @@ const OrganisationSection = ({ zIndex }) => (
       <p style={{ textAlign: 'center' }}><a href="http://www.liceum.pijarzy.pl">Liceum Ogólnokształcące Zakonu Pijarów w&nbsp;Krakowie</a> przy&nbsp;<a href="http://www.openstreetmap.org/relation/2410065">ul.&nbsp;Akacjowej&nbsp;5</a><br />w dniach od 28 kwietnia do&nbsp;1&nbsp;maja 2017</p>
       <h4>Ile kosztuje uczestnictwo?</h4>
       <ul>
-        <li><strong>Pakiet K1 – Przyjezdny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu oraz obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 50 zł,</li>
-        <li><strong>Pakiet K2 – Lokalny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu, zakwaterowanie w <a href="http://pl.ssm.com.pl/krakow-grochowa/">schronisku młodzieżowym</a> oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł.</li>
+        <li><strong>Pakiet K1 – Przyjezdny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu, zakwaterowanie w <a href="http://pl.ssm.com.pl/krakow-grochowa/">schronisku młodzieżowym</a> oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł,</li>
+        <li><strong>Pakiet K2 – Lokalny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu oraz obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 50 zł.</li>
       </ul>
     </div>
   </Section>
 );
-
-OrganisationSection.propTypes = {
-  zIndex: PropTypes.number,
-};
-
-export default OrganisationSection;
