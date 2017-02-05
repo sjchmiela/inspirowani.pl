@@ -1,9 +1,9 @@
 import React from 'react';
 import Section from '../../components/Section/Section';
 
-import piarists from './piarists.png';
-import dap from './dap.png';
-import liceum from './liceum.png';
+import piarists from './piarists.jpg';
+import dap from './dap.jpg';
+import liceum from './liceum.jpg';
 
 import './OrganisationSection.scss';
 

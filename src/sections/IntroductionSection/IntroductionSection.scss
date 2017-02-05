@@ -7,6 +7,9 @@
 
   &-backLayer {
     background-color: #1992E8;
+    @media screen and (max-width: 49em) {
+      background-image: url(wieczysta-mobile.jpg);
+    }
     @media screen and (min-width: 49em) {
       background-image: url(wieczysta.jpg);
     }

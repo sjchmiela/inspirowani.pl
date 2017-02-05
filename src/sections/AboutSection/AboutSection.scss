@@ -4,6 +4,9 @@
 
   &-backLayer {
     background-color: #009ba0;
+    @media screen and (max-width: 49em) {
+      background-image: url(reading_bible-mobile.jpg);
+    }
     @media screen and (min-width: 49em) {
       background-image: url(reading_bible.jpg);
     }

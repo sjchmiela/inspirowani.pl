@@ -5,29 +5,33 @@
 }
 
 .LogoSection {
-  position: relative;
-  background-color: #eee;
-  background-image: url('./shards_pattern.svg?inline');
+  /* Defined in HTML.
+  // position: relative;
+  // background-color: #eee;
+  // background-image: url('./shards_pattern.svg?inline');
 
-  &-backgroundLightener {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255,255,255,0.3);
-    padding: 1em;
-  }
+  // Defined in HTML.
+  // &-backgroundLightener {
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   padding: 1em;
+  //   display: flex;
+  //   position: absolute;
+  //   align-items: center;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   background: rgba(255,255,255,0.3);
+  // }
 
-  &-logo {
-    margin: 1em;
-    max-width: 800px;
-    max-height: 100%;
-  }
+  // Defined in HTML.
+  // &-logo {
+  //   margin: 1em;
+  //   max-width: 800px;
+  //   max-height: 100%;
+  // }
+  */
 
   &-more {
     position: absolute;
