@@ -2,8 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
 import './Card.scss';
 
-import blueCard from './card_back_blue.svg';
-import redCard from './card_back_red.svg';
+import blueCard from './folch.jpg';
+import redCard from './scansione.jpg';
 
 export default class Card extends Component {
   static propTypes = {

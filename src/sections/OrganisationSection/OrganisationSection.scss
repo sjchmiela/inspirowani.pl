@@ -9,9 +9,6 @@
   @media screen and (max-width: 60em) {
     padding: 0 1em;
     background-size: 10em auto;
-    &-content {
-      background: rgba(251,252,254,0.75);
-    }
   }
 
   h4 {
@@ -43,6 +40,7 @@
   }
 
   &-content {
+    background: rgba(251,252,254,0.75);
     margin: 0 auto;
     max-width: 40em;
     padding: 0 1.618em 1.618em;

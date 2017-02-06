@@ -7,7 +7,7 @@ import mail from './mail.svg';
 import facebook from './facebook.svg';
 
 const ContactSection = ({ zIndex }) => (
-  <Section className="ContactSection" backLayerClassName="ContactSection-backLayer" zIndex={zIndex}>
+  <Section className="ContactSection" backLayerClassName="ContactSection-backLayer" zIndex={zIndex} id="rejestracja">
     <ColumnsLayout columns={[
       <div className="ContactSection-part ContactSection-contact">
         <h1>Kontakt</h1>
@@ -20,10 +20,9 @@ const ContactSection = ({ zIndex }) => (
           kontakt@inspirowani.pl
         </a>
       </div>,
-      <div className="ContactSection-part ContactSection-registration">
-        <h1>Rejestracja</h1>
-        <p>Otwieramy w poniedziałek!</p>
-      </div>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform" className="ContactSection-part ContactSection-registration">
+        <h1>Rejestracja &rarr;</h1>
+      </a>
     ]} />
   </Section>
 );

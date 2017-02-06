@@ -65,7 +65,7 @@ export default class MemorySection extends Component {
     });
 
     return (
-      <Section className="MemorySection" zIndex={this.props.zIndex}>
+      <Section className="MemorySection" zIndex={this.props.zIndex} wrapperClassName="MemorySection-wrapper">
         <div className="MemorySection-row">
           {whats.map(this.renderCard('red'))}
         </div>

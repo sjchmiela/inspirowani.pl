@@ -28,6 +28,9 @@
   &-column {
     margin: 0 1em;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
   }
 
   &-card {
@@ -36,7 +39,6 @@
     align-self: flex-start;
     padding: 0 0.618em;
     flex-direction: column;
-    flex: 1;
     margin-top: 1em;
     box-shadow: 0 0.2em 0.5em rgba(117, 76, 36, 0.5);
 

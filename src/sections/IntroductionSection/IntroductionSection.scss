@@ -4,6 +4,9 @@
   font-size: 2em;
   font-family: 'Alegreya Sans';
   line-height: 1.618em;
+  @media screen and (max-width: 49em) {
+    font-size: 1.389em;
+  }
 
   &-backLayer {
     background-color: #1992E8;

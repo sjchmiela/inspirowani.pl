@@ -15,8 +15,8 @@
   transform: rotateY(0deg);
 	transform-style: preserve-3d;
 
-  &--red &-back { border-color: #fb0f0c; color: #fb0f0c; }
-  &--blue &-back { border-color: #313390; color: #313390; }
+  &--red &-back { border-color: #CCA204; color: #CCA204; }
+  &--blue &-back { border-color: #009ba0; color: #009ba0; }
 
   &--back { transform: rotateY(180deg); }
 
@@ -28,6 +28,7 @@
     position: absolute;
     border-radius: 0.389em;
     backface-visibility: hidden;
+    img { max-width: 100%; border-radius: 0.618em; }
   }
 
   &-front {
