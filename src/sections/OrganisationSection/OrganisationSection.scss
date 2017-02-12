@@ -75,4 +75,14 @@
 
     .lead { font-weight: bold; }
   }
+
+  &-registration {
+    text-align: center;
+    margin: 2em 1em;
+    padding: 2em;
+    border: 1px solid #009ba0;
+    align-self: stretch;
+    border-radius: 1em;
+    h4 { margin-top: 0; }
+  }
 }

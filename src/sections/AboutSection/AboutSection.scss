@@ -1,4 +1,5 @@
 .AboutSection {
+  max-height: 50em;
   padding: 0 1.5em 0;
 
   &-backLayer {
@@ -41,6 +42,7 @@
 
   @media screen and (max-width: 40em) {
     height: initial;
+    max-height: initial;
     &-computer {
       margin-top: 1em;
       max-width: none;

@@ -7,6 +7,8 @@ import liceum from './liceum.jpg';
 
 import './OrganisationSection.scss';
 
+const formLink = 'https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform';
+
 export default ({ zIndex }) => (
   <Section className="OrganisationSection" zIndex={zIndex}>
     <div className="OrganisationSection-content">
@@ -47,6 +49,10 @@ export default ({ zIndex }) => (
         <li><strong>Pakiet K1 – Przyjezdny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu, zakwaterowanie w <a href="http://pl.ssm.com.pl/krakow-grochowa/">schronisku młodzieżowym</a> oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł,</li>
         <li><strong>Pakiet K2 – Lokalny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu oraz obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 50 zł.</li>
       </ul>
+      <div className="OrganisationSection-registration">
+        <h4>Jak się zarejestrować?</h4>
+        <p>Wypełnić <a href={formLink}>formularz</a> i&nbsp;postępować zgodnie z&nbsp;jego zaleceniami.</p>
+      </div>
     </div>
   </Section>
 );

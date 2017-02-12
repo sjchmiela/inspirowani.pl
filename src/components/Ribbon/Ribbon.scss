@@ -1,0 +1,28 @@
+.Ribbon {
+  width: 20em;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  top: 4em;
+  right: -4em;
+  left: auto;
+  transform: rotate(45deg);
+  position: fixed;
+  box-shadow: 0 0 1em rgba(0,0,0,.3);
+  background: #009ba0;
+  font-weight: bold;
+  a {
+    color: #fff;
+    display: block;
+    &:hover { text-decoration: none; }
+  }
+  @media screen and (max-width: 43em) {
+    position: fixed;
+    transform: none;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+}

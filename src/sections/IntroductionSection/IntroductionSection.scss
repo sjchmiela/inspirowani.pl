@@ -1,7 +1,7 @@
 .Introduction {
   justify-content: space-around;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.618em;
   font-family: 'Alegreya Sans';
   line-height: 1.618em;
   @media screen and (max-width: 49em) {
@@ -10,19 +10,16 @@
 
   &-backLayer {
     background-color: #1992E8;
-    @media screen and (max-width: 49em) {
-      background-image: url(wieczysta-mobile.jpg);
-    }
-    @media screen and (min-width: 49em) {
-      background-image: url(wieczysta.jpg);
-    }
+    background-image: url(liceum.jpg);
   }
 
   &-part {
     display: block;
     background: rgba(255,203,5, 1);
-    margin: 1em 0;
+    margin: 0.618em 0;
     padding: 0.389em 0.618em;
+
+    h1 { margin: 0; font-size: 1em; }
 
     &--left {
       align-self: flex-start;
@@ -30,5 +27,21 @@
     &--right {
       align-self: flex-end;
     }
+    &--center {
+      align-self: center;
+    }
+    &--blue {
+      background: #009ba0;
+      color: #fff;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &-likeH1 {
+    font-size: 2em;
+    font-weight: bold;
   }
 }
