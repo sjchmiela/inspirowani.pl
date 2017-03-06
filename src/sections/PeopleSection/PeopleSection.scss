@@ -1,0 +1,13 @@
+.PeopleSection {
+  background: #009ba0;
+
+  &-heading {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .ColumnsLayout-column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

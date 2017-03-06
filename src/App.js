@@ -5,6 +5,8 @@ import MemorySection from './sections/MemorySection/MemorySection';
 import AboutSection from './sections/AboutSection/AboutSection';
 import CalasanzSection from './sections/CalasanzSection/CalasanzSection';
 import ProgrammeSection from './sections/ProgrammeSection/ProgrammeSection';
+import WorkshopsSection from './sections/WorkshopsSection/WorkshopsSection';
+import PeopleSection from './sections/PeopleSection/PeopleSection';
 import ContactSection from './sections/ContactSection/ContactSection';
 import OrganisationSection from './sections/OrganisationSection/OrganisationSection';
 import Ribbon from './components/Ribbon/Ribbon';
@@ -24,6 +26,8 @@ const sections = [
   { component: AboutSection, zIndex: 4 },
   { component: CalasanzSection, zIndex: 8 },
   { component: ProgrammeSection, zIndex: 6 },
+  { component: WorkshopsSection, zIndex: 6 },
+  { component: PeopleSection, zIndex: 6 },
   { component: ContactSection, zIndex: 3 },
   { component: OrganisationSection, zIndex: 4 },
 ];
