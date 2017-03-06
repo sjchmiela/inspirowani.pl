@@ -8,6 +8,7 @@
     margin: 3em;
     padding: 1em;
     display: flex;
+    flex-wrap: wrap;
     border-radius: 0.5em;
     flex-direction: column;
     border: 1em solid #9B6734;
@@ -26,11 +27,18 @@
   }
 
   &-column {
-    margin: 0 1em;
     flex: 1;
     display: flex;
+    margin: 0 0.618em;
     flex-direction: column;
     align-self: stretch;
+  }
+
+  &-time {
+    display: block;
+    font-weight: bold;
+    margin-bottom: -0.389em;;
+    font-size: 0.809em;
   }
 
   &-card {
