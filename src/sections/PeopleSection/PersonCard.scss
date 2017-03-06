@@ -7,6 +7,10 @@
   flex-direction: column;
   align-items: stretch;
 
+  &--special {
+    background: #FF9A08;
+  }
+
   &-avatar {
     align-self: center;
     border-radius: 50%;
@@ -21,6 +25,9 @@
     padding: 0 1em;
     margin-top: -0.618em;
     margin-bottom: -0.618em;
+    h5 {
+      margin-top: -1.389em;
+    }
   }
 
   &-description {

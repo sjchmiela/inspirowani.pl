@@ -43,7 +43,6 @@ const workshops = [
       ),
       leaders: [
         {
-          noImage: true,
           slug: 'bochenek',
           name: 'o. Dominik Bochenek SP',
         }
@@ -116,6 +115,31 @@ const workshops = [
 const people = [
   [
     {
+      slug: 'aguado',
+      className: 'special',
+      name: 'Pedro Aguado Cuesta',
+      subheading: 'Gość specjalny',
+      description: 'Od 2009 roku Przełożony Generalny Zakonu Pijarów. Pochodzi z Bilbao w Kraju Basków (Hiszpania). Był uczniem pijarskim w rodzinnym mieście. Wstąpił do Zakonu Pijarów i został wyświęcony na księdza w 1982 r. Oprócz wykształcenia teologicznego ma licencjat z pedagogiki. Po święceniach pracował jako nauczyciel i duszpasterz w szkołach pijarskich w Pampelunie i Bilbao. Później został również mianowany formatorem i przełożonym kleryków. W latach 1988-2009 był przełożonym swojej prowincji zakonnej.',
+    },
+    {
+      slug: 'bochenek',
+      name: 'Dominik Bochenek',
+      description: 'Pijar, kapłan od 3 lat, katecheta i duszpasterz pijarskiego gimnazjum w Łowiczu, duszpasterz Odnowy w Duchu Świętym „Kana”. Prowadzi scholę dziecięcą „Dzieci Królowej Pokoju”, grupę animatorów Calasanz oraz gimnazjalną Oazę Nowego Życia. Organizator ogólnopolskich przeglądów teatrów i schól pijarskich. Interesuje się duchowością, psychologią, matematyką i muzyką.',
+    },
+    {
+      slug: 'matras',
+      name: 'Józef Matras',
+      description: 'Pijar, wyświęcony na księdza w 1996 roku. Od tamtej pory pracował jako katecheta i duszpasterz w Krakowie i w Warszawie. Przez wiele lat służył pijarskim klerykom jako ojciec duchowny oraz magister studentatu międzynarodowego w Rzymie. Od 2011 roku Przełożony Polskiej Prowincji Zakonu Pijarów. Sekretna pasja: układanie krzyżówek.',
+    },
+
+    {
+      slug: 'wasacz',
+      name: 'Gabriela Wąsacz',
+      description: 'Absolwentka Akademii Muzycznej w Krakowie, teoretyk muzyki, nauczyciel Zespołu Szkół Muzycznych nr 1 w Rzeszowie, dyrygent Małego Chóru Świętego Józefa Kalasancjusza. Osoba bez której trudno sobie wyobrazić oprawę muzyczną wielu spotkań młodzieży pijarskiej w Polsce i za granicą. Wielbicielka historii muzyki i śpiewu chóralnego, zarażająca wiarą w to, że „śpiewać każdy może”…',
+    },
+  ],
+  [
+    {
       slug: 'adamusiak',
       name: 'Łukasz Adamusiak',
       description: 'Od 13 lat w Zakonie Pijarów, od 2015 roku odpowiada za formację najmłodszych adeptów życia pijarskiego w Domu Nowicjatu w Rzeszowie. Absolwent Wydziału Elektroniki Politechniki Wrocławskiej. Studiował i ukończył teologię na Papieskim Uniwersytecie Gregoriańskim. Interesuje się historią i duchowością Pisma Świętego.',
@@ -146,29 +170,6 @@ const people = [
       slug: 'pindelski',
       name: 'Mateusz Pindelski',
       description: 'Pochodzi z Krakowa, pijar, ksiądz od 15 lat. Duszpasterz i nauczyciel, doktor nauk humanistycznych specjalizujący się w poezji Karola Wojtyły. Pełniąc obowiązki Asystenta Generalnego i Postulatora Generalnego Zakonu, przez 6 lat mieszkał w domu św. Józefa Kalasancjusza w Rzymie, więc miał okazję poznać go z bliska. ',
-    },
-  ],
-  [
-    {
-      slug: 'bochenek',
-      noImage: true,
-      name: 'Dominik Bochenek',
-      description: 'Pijar, kapłan od 3 lat, katecheta i duszpasterz pijarskiego gimnazjum w Łowiczu, duszpasterz Odnowy w Duchu Świętym „Kana”. Prowadzi scholę dziecięcą „Dzieci Królowej Pokoju”, grupę animatorów Calasanz oraz gimnazjalną Oazę Nowego Życia. Organizator ogólnopolskich przeglądów teatrów i schól pijarskich. Interesuje się duchowością, psychologią, matematyką i muzyką.',
-    },
-    {
-      slug: 'matras',
-      name: 'Józef Matras',
-      description: 'Pijar, wyświęcony na księdza w 1996 roku. Od tamtej pory pracował jako katecheta i duszpasterz w Krakowie i w Warszawie. Przez wiele lat służył pijarskim klerykom jako ojciec duchowny oraz magister studentatu międzynarodowego w Rzymie. Od 2011 roku Przełożony Polskiej Prowincji Zakonu Pijarów. Sekretna pasja: układanie krzyżówek.',
-    },
-    {
-      slug: 'wasacz',
-      name: 'Gabriela Wąsacz',
-      description: 'Absolwentka Akademii Muzycznej w Krakowie, teoretyk muzyki, nauczyciel Zespołu Szkół Muzycznych nr 1 w Rzeszowie, dyrygent Małego Chóru Świętego Józefa Kalasancjusza. Osoba bez której trudno sobie wyobrazić oprawę muzyczną wielu spotkań młodzieży pijarskiej w Polsce i za granicą. Wielbicielka historii muzyki i śpiewu chóralnego, zarażająca wiarą w to, że „śpiewać każdy może”…',
-    },
-    {
-      slug: 'wolan',
-      name: 'Jacek Wolan',
-      description: 'Pijar, od 7 lat obdarzony łaską kapłaństwa; od pięciu – towarzyszy studentom w Duszpasterstwie Akademickim Pijarów w Krakowie na Wieczystej. Pochodzi z Podkarpacia i zapewne tym należy tłumaczyć umiłowanie przez niego Bieszczadów. Lubi jeździć na rowerze, kiedyś interesował się elektroniką, później filozofią, a teraz zajmuje się Pismem Świętym i kulturą żydowską.',
     },
   ],
 ];
