@@ -75,7 +75,7 @@ const workshops = [
       ]
     },
     {
-      title: 'Sposób poznawania siebie',
+      title: 'Sposób poznawania siebie – asceza',
       description: 'Na tym warsztacie będziemy odkrywać piękno i bogactwo życia duchowego oraz jego dynamikę. W szczególności porozmawiamy o rozpoznawaniu własnych pragnień, zdolności, umiejętności, ale i ograniczeń. Dla Kalasancjusza narzędziem służącym do tego celu była asceza. Praktyki ascetyczne działają jak wyjście na pustynię: ograniczając wpływ bodźców zewnętrznych, pozwalają nam łatwiej poznać samych siebie i czynią nas bardziej wrażliwymi na odczytywanie natchnień Ducha Świętego w codziennym życiu.',
       leaders: [
         {
@@ -117,18 +117,18 @@ const people = [
     {
       slug: 'aguado',
       className: 'special',
-      name: 'Pedro Aguado Cuesta',
+      name: 'o. Pedro Aguado Cuesta SP',
       subheading: 'Gość specjalny',
       description: 'Od 2009 roku Przełożony Generalny Zakonu Pijarów. Pochodzi z Bilbao w Kraju Basków (Hiszpania). Był uczniem pijarskim w rodzinnym mieście. Wstąpił do Zakonu Pijarów i został wyświęcony na księdza w 1982 r. Oprócz wykształcenia teologicznego ma licencjat z pedagogiki. Po święceniach pracował jako nauczyciel i duszpasterz w szkołach pijarskich w Pampelunie i Bilbao. Później został również mianowany formatorem i przełożonym kleryków. W latach 1988-2009 był przełożonym swojej prowincji zakonnej.',
     },
     {
       slug: 'bochenek',
-      name: 'Dominik Bochenek',
+      name: 'o. Dominik Bochenek SP',
       description: 'Pijar, kapłan od 3 lat, katecheta i duszpasterz pijarskiego gimnazjum w Łowiczu, duszpasterz Odnowy w Duchu Świętym „Kana”. Prowadzi scholę dziecięcą „Dzieci Królowej Pokoju”, grupę animatorów Calasanz oraz gimnazjalną Oazę Nowego Życia. Organizator ogólnopolskich przeglądów teatrów i schól pijarskich. Interesuje się duchowością, psychologią, matematyką i muzyką.',
     },
     {
       slug: 'matras',
-      name: 'Józef Matras',
+      name: 'o. Józef Matras SP',
       description: 'Pijar, wyświęcony na księdza w 1996 roku. Od tamtej pory pracował jako katecheta i duszpasterz w Krakowie i w Warszawie. Przez wiele lat służył pijarskim klerykom jako ojciec duchowny oraz magister studentatu międzynarodowego w Rzymie. Od 2011 roku Przełożony Polskiej Prowincji Zakonu Pijarów. Sekretna pasja: układanie krzyżówek.',
     },
 
@@ -141,34 +141,34 @@ const people = [
   [
     {
       slug: 'adamusiak',
-      name: 'Łukasz Adamusiak',
+      name: 'o. Łukasz Adamusiak SP',
       description: 'Od 13 lat w Zakonie Pijarów, od 2015 roku odpowiada za formację najmłodszych adeptów życia pijarskiego w Domu Nowicjatu w Rzeszowie. Absolwent Wydziału Elektroniki Politechniki Wrocławskiej. Studiował i ukończył teologię na Papieskim Uniwersytecie Gregoriańskim. Interesuje się historią i duchowością Pisma Świętego.',
     },
     {
       slug: 'duc',
-      name: 'Monika Duc od Jezusa Przyjaciela',
-      description: 'Od Jezusa Przyjaciela – pijarka z Żywca rodem. Z zamiłowania: jeździ na rowerze, chodzi po górach i uczy hiszpańskiego. Absolwentka teologii na Uniwersytecie Kard. St. Wyszyńskiego. „Jako dziewczyna jeździłam na dni skupienia do pijarek i w wieku 18 lat rozpoczęłam formację zakonną. Od tego momentu w moim życiu jest coraz więcej radości, przygód i niespodzianek. Od 2009 roku towarzyszę młodym osobom w rozpoznawaniu ich drogi życiowej oraz staram się, aby inni poznali nasz charyzmat i styl życia”.'
+      name: 's. Monika Duc od Jezusa Przyjaciela',
+      description: 'Pijarka z Żywca rodem. Z zamiłowania: jeździ na rowerze, chodzi po górach i uczy hiszpańskiego. Absolwentka teologii na Uniwersytecie Kard. St. Wyszyńskiego. „Jako dziewczyna jeździłam na dni skupienia do pijarek i w wieku 18 lat rozpoczęłam formację zakonną. Od tego momentu w moim życiu jest coraz więcej radości, przygód i niespodzianek. Od 2009 roku towarzyszę młodym osobom w rozpoznawaniu ich drogi życiowej oraz staram się, aby inni poznali nasz charyzmat i styl życia”.'
     },
     {
       slug: 'misiura',
-      name: 'Grzegorz Misiura',
+      name: 'o. Grzegorz Misiura SP',
       description: 'Urodzony pod Turbaczem, pijar w 9. roku kapłaństwa. Ukończył teologię na Papieskim Uniwersytecie Gregoriańskim w Rzymie. Ukończył Szkołę wychowawców i formatorów seminaryjnych. Duszpasterz i katecheta w szkołach pijarskich: w Łowiczu, Krakowie i – obecnie – w Poznaniu. Przez 4 lata członek Zespołu Ewangelizacyjno-Powołaniowego w Polskiej Prowincji Zakonu Pijarów. ',
     },
   ],
   [
     {
       slug: 'baranski',
-      name: 'Mirek Barański',
+      name: 'o. Mirek Barański SP',
       description: 'Pijar, kapłan od 30 lat. Przyszedł na świat nad Zalewem Wiślanym, ale od wielu lat mieszka i pracuje w Wiedniu, gdzie do zeszłego roku był proboszczem najstarszej pijarskiej parafii pw. Matki Bożej Wiernej (Maria Treu). Absolwent Liceum Sztuk Plastycznych w Gdyni i Papieskiej Akademii Teologicznej w Krakowie. Jest rzeźbiarzem, malarzem, grafikiem oraz ilustratorem. Od 2003 organizuje w Wiedniu wystawy w ramach Kunstforum Piaristen. ',
     },
     {
       slug: 'jurga',
-      name: 'Joanna Jurga od Jezusa Cierpliwego',
+      name: 's. Joanna Jurga od Jezusa Cierpliwego',
       description: 'Obecnie najmłodsza pijarka w Polsce. „Poznałam siostry pijarki przez Facebooka. (Kto by pomyślał, że Pan Bóg posłuży się takim narzędziem?!) Krok po kroku trwa dla mnie pełna niespodzianek przygoda z Panem Bogiem w charyzmacie pijarskim. Uwielbiam długie spacery a szczególnie wędrówki po górach. Odpoczynek dają mi: gitara i aparat fotograficzny. Niesamowitą radość sprawia mi odkrywanie Bożej Miłości razem z uczestniczkami rekolekcji dla dziewcząt”.',
     },
     {
       slug: 'pindelski',
-      name: 'Mateusz Pindelski',
+      name: 'o. Mateusz Pindelski SP',
       description: 'Pochodzi z Krakowa, pijar, ksiądz od 15 lat. Duszpasterz i nauczyciel, doktor nauk humanistycznych specjalizujący się w poezji Karola Wojtyły. Pełniąc obowiązki Asystenta Generalnego i Postulatora Generalnego Zakonu, przez 6 lat mieszkał w domu św. Józefa Kalasancjusza w Rzymie, więc miał okazję poznać go z bliska. ',
     },
   ],

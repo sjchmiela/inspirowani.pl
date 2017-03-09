@@ -32,7 +32,7 @@ const programme = [
       { time: '16:15', name: 'konferencja II' },
       { time: '17:15', name: 'konwersatorium II' },
       { time: '18:15', name: 'kolacja' },
-      { time: '20:00', name: 'koncert zespołu Elendis' },
+      { time: '20:00', name: 'koncert zespołu ElendeS' },
     ]
   },
   {
@@ -44,8 +44,8 @@ const programme = [
       { time: '10:00', name: 'konferencja III' },
       { time: '11:00', name: 'konwersatorium III' },
       { time: '12:00', name: 'warsztaty (2. seria)' },
-      { time: '13:30', name: 'obiad (do pobrania prowiant na kolację)' },
-      { time: '16:00', name: 'Msza Święta w kościele pw. Przemienienia Pańskiego przy ul. Pijarskiej 1' },
+      { time: '13:30', name: 'obiad (+ do pobrania prowiant na kolację)' },
+      { time: '16:00', name: 'Msza Święta w kościele pw. Przemienienia Pańskiego przy ul. Pijarskiej 2' },
       { time: '17:00', name: 'czas wolny (z propozycjami tras na spacer)' },
     ]
   },
