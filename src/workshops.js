@@ -154,6 +154,11 @@ const people = [
       name: 'o. Grzegorz Misiura SP',
       description: 'Urodzony pod Turbaczem, pijar w 9. roku kapłaństwa. Ukończył teologię na Papieskim Uniwersytecie Gregoriańskim w Rzymie. Ukończył Szkołę wychowawców i formatorów seminaryjnych. Duszpasterz i katecheta w szkołach pijarskich: w Łowiczu, Krakowie i – obecnie – w Poznaniu. Przez 4 lata członek Zespołu Ewangelizacyjno-Powołaniowego w Polskiej Prowincji Zakonu Pijarów. ',
     },
+    {
+      slug: 'wolan',
+      name: 'o. Jacek Wolan SP',
+      description: 'Pijar, od 7 lat obdarzony łaską kapłaństwa; od pięciu – towarzyszy studentom w Duszpasterstwie Akademickim Pijarów w Krakowie na Wieczystej. Pochodzi z Podkarpacia i zapewne tym należy tłumaczyć umiłowanie przez niego Bieszczadów. Lubi jeździć na rowerze, kiedyś interesował się elektroniką, później filozofią, a teraz zajmuje się Pismem Świętym i kulturą żydowską.',
+    },
   ],
   [
     {

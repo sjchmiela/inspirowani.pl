@@ -7,6 +7,12 @@
   justify-content: space-around;
   padding: 1.618em;
 
+  &-wrapper {
+    @media screen and (max-width: 40em) {
+      display: none;
+    }
+  }
+
   &-card {
     @media screen and (max-width: 40em) {
       font-size: 0.8em;
