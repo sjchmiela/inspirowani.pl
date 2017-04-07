@@ -22,6 +22,7 @@ const ContactSection = ({ zIndex }) => (
       </div>,
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform" className="ContactSection-part ContactSection-registration">
         <h1>Rejestracja &rarr;</h1>
+        <span className="ContactSection-deadline">(do 20.04)</span>
       </a>
     ]} />
   </Section>

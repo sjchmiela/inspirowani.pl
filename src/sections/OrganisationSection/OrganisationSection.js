@@ -35,13 +35,8 @@ export default ({ zIndex }) => (
       </div>
       <h4>Dla kogo jest ten Kongres?</h4>
       <p>
-        Zaproszenie kierujemy do osób pełnoletnich, które czują się związane:
+        Zaproszenie kierujemy do osób pełnoletnich, w&nbsp;wieku 18–35 lat.
       </p>
-      <ul>
-        <li>z dziełami pijarskimi,</li>
-        <li>z duszpasterstwem prowadzonym przez pijarów,</li>
-        <li>z osobą św. Józefa Kalasancjusza.</li>
-      </ul>
       <h4>Gdzie i kiedy?</h4>
       <p style={{ textAlign: 'center' }}><a href="http://www.liceum.pijarzy.pl">Liceum Ogólnokształcące Zakonu Pijarów w&nbsp;Krakowie</a> przy&nbsp;<a href="http://www.openstreetmap.org/relation/2410065">ul.&nbsp;Akacjowej&nbsp;5</a><br />w dniach od 28 kwietnia do&nbsp;1&nbsp;maja 2017</p>
       <h4>Ile kosztuje uczestnictwo?</h4>

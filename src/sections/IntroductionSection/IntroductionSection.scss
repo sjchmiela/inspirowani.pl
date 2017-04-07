@@ -8,6 +8,11 @@
     font-size: 1.389em;
   }
 
+  &--details {
+    font-size: 0.389em;
+    margin-bottom: -0.618em;
+  }
+
   &-backLayer {
     background-color: #1992E8;
     background-image: url(liceum.jpg);
@@ -29,6 +34,7 @@
     }
     &--center {
       align-self: center;
+      text-align: center;
     }
     &--blue {
       background: #009ba0;

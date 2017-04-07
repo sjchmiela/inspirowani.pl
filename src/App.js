@@ -15,7 +15,12 @@ import './App.scss';
 const formLink = 'https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform';
 
 const RegistrationRibbon = ({ zIndex }) => (
-  <Ribbon zIndex={zIndex}><a href={formLink}>Zarejestruj się! &rarr;</a></Ribbon>
+  <Ribbon zIndex={zIndex}>
+    <a href={formLink} style={{display:'block'}}>
+      Zarejestruj się! &rarr;
+      <div style={{fontSize:'0.618em',lineHeight:'1em',marginTop:'-1em',paddingBottom:'1.618em'}}>(masz czas tylko do&nbsp;20.04!)</div>
+    </a>
+  </Ribbon>
 );
 
 const sections = [
