@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.48862f4e.css",
-  "main.css.map": "static/css/main.48862f4e.css.map",
-  "main.js": "static/js/main.738604a4.js",
-  "main.js.map": "static/js/main.738604a4.js.map",
+  "main.css": "static/css/main.d618a326.css",
+  "main.css.map": "static/css/main.d618a326.css.map",
+  "main.js": "static/js/main.02675feb.js",
+  "main.js.map": "static/js/main.02675feb.js.map",
   "static/media/adamusiak.jpg": "static/media/adamusiak.c2595cec.jpg",
   "static/media/aguado.jpg": "static/media/aguado.7b7094ac.jpg",
   "static/media/baranski.jpg": "static/media/baranski.4da784ed.jpg",
@@ -13,7 +13,6 @@
   "static/media/dap.jpg": "static/media/dap.beaded08.jpg",
   "static/media/duc.jpg": "static/media/duc.c1b42d54.jpg",
   "static/media/facebook.svg": "static/media/facebook.62b6567f.svg",
-  "static/media/folch.jpg": "static/media/folch.672253fa.jpg",
   "static/media/jurga.jpg": "static/media/jurga.b428c43b.jpg",
   "static/media/letters.jpg": "static/media/letters.0939e749.jpg",
   "static/media/liceum.jpg": "static/media/liceum.1c3680f0.jpg",
@@ -24,7 +23,6 @@
   "static/media/pindelski.jpg": "static/media/pindelski.34ce8f8e.jpg",
   "static/media/reading_bible-mobile.jpg": "static/media/reading_bible-mobile.6502390d.jpg",
   "static/media/reading_bible.jpg": "static/media/reading_bible.11b9f312.jpg",
-  "static/media/scansione.jpg": "static/media/scansione.72ad09fa.jpg",
   "static/media/wasacz.jpg": "static/media/wasacz.d8ae25e2.jpg",
   "static/media/wolan.jpg": "static/media/wolan.b97c4347.jpg"
 }

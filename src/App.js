@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoSection from './sections/LogoSection/LogoSection';
 import IntroductionSection from './sections/IntroductionSection/IntroductionSection';
-import MemorySection from './sections/MemorySection/MemorySection';
+import VideoSection from './sections/VideoSection/VideoSection';
 import AboutSection from './sections/AboutSection/AboutSection';
 import CalasanzSection from './sections/CalasanzSection/CalasanzSection';
 import ProgrammeSection from './sections/ProgrammeSection/ProgrammeSection';
@@ -27,7 +27,7 @@ const sections = [
   { component: RegistrationRibbon, zIndex: 999 },
   { component: LogoSection, zIndex: 16 },
   { component: IntroductionSection, zIndex: 5 },
-  { component: MemorySection, zIndex: 12 },
+  { component: VideoSection, zIndex: 12 },
   { component: AboutSection, zIndex: 4 },
   { component: CalasanzSection, zIndex: 8 },
   { component: ProgrammeSection, zIndex: 6 },
