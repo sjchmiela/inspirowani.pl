@@ -1,0 +1,28 @@
+.ConferencesSection {
+  background: #009ba0;
+
+  &-heading {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  &-leaders {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &-leader {
+    color: #000;
+    display: flex;
+    flex: 0;
+    align-items: center;
+    margin: 0.389em;
+    &-avatar {
+      border-radius: 2.618em;
+      width: 2.618em;
+      height: 2.618em;
+      margin-right: 0.389em;
+    }
+  }
+}

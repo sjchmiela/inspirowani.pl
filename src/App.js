@@ -6,6 +6,7 @@ import AboutSection from './sections/AboutSection/AboutSection';
 import CalasanzSection from './sections/CalasanzSection/CalasanzSection';
 import ProgrammeSection from './sections/ProgrammeSection/ProgrammeSection';
 import WorkshopsSection from './sections/WorkshopsSection/WorkshopsSection';
+import ConferencesSection from './sections/ConferencesSection/ConferencesSection';
 import PeopleSection from './sections/PeopleSection/PeopleSection';
 import ContactSection from './sections/ContactSection/ContactSection';
 import OrganisationSection from './sections/OrganisationSection/OrganisationSection';
@@ -18,7 +19,7 @@ const RegistrationRibbon = ({ zIndex }) => (
   <Ribbon zIndex={zIndex}>
     <a href={formLink} style={{display:'block'}}>
       Zarejestruj się! &rarr;
-      <div style={{fontSize:'0.618em',lineHeight:'1em',marginTop:'-1em',paddingBottom:'1.618em'}}>(masz czas tylko do&nbsp;20.04!)</div>
+      <div style={{fontSize:'0.618em',lineHeight:'1em',marginTop:'-1em',paddingBottom:'1.618em'}}>(pakiet K2 bez noclegu)</div>
     </a>
   </Ribbon>
 );
@@ -32,6 +33,7 @@ const sections = [
   { component: CalasanzSection, zIndex: 8 },
   { component: ProgrammeSection, zIndex: 6 },
   { component: WorkshopsSection, zIndex: 6 },
+  { component: ConferencesSection, zIndex: 6 },
   { component: PeopleSection, zIndex: 6 },
   { component: ContactSection, zIndex: 3 },
   { component: OrganisationSection, zIndex: 4 },

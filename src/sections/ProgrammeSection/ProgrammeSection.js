@@ -22,8 +22,8 @@ const programme = [
     header: '29 kwietnia, sobota',
     appendix: 'workshops',
     entries: [
-      { time: '8:15', name: 'jutrznia' },
-      { time: '8:45', name: 'śniadanie' },
+      { time: '8:15', name: 'śniadanie (pakiet K1)' },
+      { time: '8:45', name: 'jutrznia' },
       { time: '9:30', name: 'konferencja I' },
       { time: '10:30', name: 'konwersatorium I' },
       { time: '11:45', name: 'Msza Święta w kościele pw. Najświętszego Imienia Maryi przy ul. Dzielskiego 1 pod przewodnictwem o. Pedro Aguado, Generała Zakonu Pijarów – mogą w niej brać udział również osoby nieuczestniczące w Kongresie' },
@@ -39,7 +39,7 @@ const programme = [
     header: '30 kwietnia, niedziela',
     appendix: 'discussions',
     entries: [
-      { time: '9:00', name: 'śniadanie' },
+      { time: '9:00', name: 'śniadanie (pakiet K1)' },
       { time: '9:30', name: 'modlitwa poranna' },
       { time: '10:00', name: 'konferencja III' },
       { time: '11:00', name: 'konwersatorium III' },
@@ -53,8 +53,8 @@ const programme = [
     header: '1 maja, poniedziałek',
     appendix: 'project',
     entries: [
-      { time: '8:30', name: 'śniadanie' },
-      { time: '9:30', name: 'Msza Święta w kościele pw. Matki Bożej Ostrobramskiej przy ul. Meissnera 20 (kaplica św. Józefa Kalasancjusza)' },
+      { time: '8:30', name: 'śniadanie (pakiet K1)' },
+      { time: '9:30', name: 'Msza Święta w kościele pw. Najświętszego Imienia Maryi przy ul. Dzielskiego 1' },
       { time: '10:30', name: 'podsumowanie i zakończenie Kongresu w Liceum Pijarów, propozycje na przyszłość' },
       { time: '12:00', name: 'obiad' },
     ]

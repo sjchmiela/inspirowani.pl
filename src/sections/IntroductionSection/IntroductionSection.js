@@ -12,8 +12,8 @@ const IntroductionSection = ({ zIndex }) => (
       href={formLink}
       className="Introduction-part Introduction-part--center Introduction-part--blue Introduction-likeH1"
     >
-      Rejestracja otwarta!
-      <div className="Introduction--details">(liczba miejsc ograniczona, zapisy trwają do 20.04)</div>
+      Rejestracja z pakietem K2
+      <div className="Introduction--details">(bez noclegu)</div>
     </a>
     <h2 className="Introduction-part Introduction-part--left">Z udziałem o.&nbsp;Generała Zakonu Pijarów</h2>
     <h2 className="Introduction-part Introduction-part--right">28 kwietnia –&nbsp;1&nbsp;maja 2017 w&nbsp;Krakowie</h2>
