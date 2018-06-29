@@ -7,8 +7,6 @@ import liceum from './liceum.jpg';
 
 import './OrganisationSection.scss';
 
-const formLink = 'https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform';
-
 export default ({ zIndex }) => (
   <Section className="OrganisationSection" zIndex={zIndex}>
     <div className="OrganisationSection-content">
@@ -39,15 +37,6 @@ export default ({ zIndex }) => (
       </p>
       <h4>Gdzie i kiedy?</h4>
       <p style={{ textAlign: 'center' }}><a href="http://www.liceum.pijarzy.pl">Liceum Ogólnokształcące Zakonu Pijarów w&nbsp;Krakowie</a> przy&nbsp;<a href="http://www.openstreetmap.org/relation/2410065">ul.&nbsp;Akacjowej&nbsp;5</a><br />w dniach od 28 kwietnia do&nbsp;1&nbsp;maja 2017</p>
-      <h4>Ile kosztuje uczestnictwo?</h4>
-      <ul>
-        <li><strong>Pakiet K1 – Przyjezdny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu, zakwaterowanie w schronisku młodzieżowym oraz śniadania, obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 80 zł,</li>
-        <li><strong>Pakiet K2 – Lokalny Kalasancjusz</strong> – obejmuje udział w całym programie Kongresu oraz obiady i kolacje (od kolacji 28 kwietnia do obiadu 1 maja) – 50 zł.</li>
-      </ul>
-      <div className="OrganisationSection-registration">
-        <h4>Jak się zarejestrować?</h4>
-        <p>Wypełnić <a href={formLink}>formularz</a> i&nbsp;postępować zgodnie z&nbsp;jego zaleceniami.</p>
-      </div>
     </div>
   </Section>
 );

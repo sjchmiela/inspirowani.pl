@@ -20,10 +20,6 @@ const ContactSection = ({ zIndex }) => (
           kontakt@inspirowani.pl
         </a>
       </div>,
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSce2uwekwkoSALnN1gK7PLoEFuNdtsKueN-7Y94esIpeNq88Q/viewform" className="ContactSection-part ContactSection-registration">
-        <h1>Rejestracja &rarr;</h1>
-        <span className="ContactSection-deadline">(pakiet K2, bez noclegu)</span>
-      </a>
     ]} />
   </Section>
 );
